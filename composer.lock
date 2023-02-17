@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "81ce4b4c053b2749247d1e44f6705516",
+    "content-hash": "71ebeef1b2b719a99b907712e3c3dc72",
     "packages": [
         {
             "name": "brick/math",
@@ -1734,6 +1734,56 @@
                 }
             ],
             "time": "2023-02-08T01:06:31+00:00"
+        },
+        {
+            "name": "prettus/laravel-validation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/karim1999/laravel-validator.git",
+                "reference": "6112d01e72b491615bc4dd185fe665d92ed82c0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/karim1999/laravel-validator/zipball/6112d01e72b491615bc4dd185fe665d92ed82c0a",
+                "reference": "6112d01e72b491615bc4dd185fe665d92ed82c0a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.4|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/validation": "~5.4|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "php": ">=5.4.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Prettus\\Validator\\": "src/Prettus/Validator/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Anderson Andrade",
+                    "homepage": "http://andersonandra.de",
+                    "email": "contato@andersonandra.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Validation Service",
+            "homepage": "http://andersao.github.io/laravel-validation",
+            "keywords": [
+                "laravel",
+                "service",
+                "validation"
+            ],
+            "support": {
+                "email": "contato@andersonandra.de",
+                "issues": "https://github.com/andersao/laravel-validation/issues",
+                "wiki": "https://github.com/andersao/laravel-validation",
+                "source": "https://github.com/andersao/laravel-validation",
+                "docs": "http://andersao.github.io/laravel-validation"
+            },
+            "time": "2023-02-17T09:06:35+00:00"
         },
         {
             "name": "psr/container",
@@ -3804,7 +3854,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "prettus/laravel-validation": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

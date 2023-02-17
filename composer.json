@@ -33,6 +33,7 @@
     "illuminate/pagination": "~5.0|~6.0|~7.0|^8.0|^9.0|^10.0",
     "illuminate/console": "~5.0|~6.0|~7.0|^8.0|^9.0|^10.0",
     "illuminate/filesystem": "~5.0|~6.0|~7.0|^8.0|^9.0|^10.0",
+    "prettus/laravel-validation": "dev-master",
     "illuminate/validation": "~5.0|~6.0|~7.0|^8.0|^9.0|^10.0"
   },
   "autoload": {
@@ -55,5 +56,11 @@
       ]
     }
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/karim1999/laravel-validator"
+    }
+  ],
   "minimum-stability": "stable"
 }
